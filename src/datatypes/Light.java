@@ -7,11 +7,11 @@ public class Light {
     The program shows the use of long datatype over int datatype
      */
     public static void main(String[] args) {
-        in_int();
-        in_long();
+        inInt();
+        inLong();
     }
 
-    public static void in_int() {
+    public static void inInt() {
         int lightspeed;
         int days;
         int seconds;
@@ -25,7 +25,7 @@ public class Light {
         System.out.println("In " + days + " days light will travel about " + distance + " miles");
     }
 
-    public static void in_long() {
+    public static void inLong() {
         int lightspeed;
         long days;
         long seconds;

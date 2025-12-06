@@ -7,11 +7,11 @@ public class Area {
      */
 
     public static void main(String[] args) {
-        in_float();
-        in_double();
+        inFloat();
+        inDouble();
     }
 
-    public static void in_float() {
+    public static void inFloat() {
         float pi, r, a;
         r = 10.8f;
         pi = 3.1416f;
@@ -20,7 +20,7 @@ public class Area {
         System.out.println("Area of circle is " + a);
     }
 
-    public static void in_double() {
+    public static void inDouble() {
         double pi, r, a;
         r = 10.8;
         pi = 3.1416;
