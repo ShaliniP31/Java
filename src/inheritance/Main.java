@@ -14,5 +14,18 @@ public class Main {
         s2.printab();
         s2.printc();
         s2.add();
+
+        //use of super for class members
+        B b = new B(10, 20);
+        b.square();
+
+        //Multilevel Hierarchy
+        C c = new C();
+        c.square();
+
+        //Method Overriding
+        A a1 = new B(10, 20);
+        a1.cube();
+        System.out.println(a1.i);
     }
 }
