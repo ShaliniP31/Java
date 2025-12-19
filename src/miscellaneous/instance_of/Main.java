@@ -10,5 +10,20 @@ public class Main {
         System.out.println(c instanceof A);
 //        System.out.println(b instanceof A);
 
+
+        Number num = 100;
+
+        if (num instanceof Integer i) {
+            System.out.println(i);
+        }
+//        i;
+
+        if (num instanceof Integer i && i > 50) {
+            System.out.println(i);
+        }
+
+        //Not Possible
+//        if( i > 50 && num instanceof Integer i){
+//        }
     }
 }
